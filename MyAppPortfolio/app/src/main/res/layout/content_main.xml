@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.android.myappportfolio.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="My Nanodegree Apps!"
+        android:textSize="25sp"
+        android:layout_marginBottom="35dp"
+        android:textColor="@android:color/black"
+        android:onClick="buttonPress"/>
+
+    <Button
+        android:id="@+id/Spotify_Streamer_Button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/Spotify_Streamer"
+        android:textSize="18sp"
+        android:background="@color/orangeButton"
+        android:onClick="buttonPress"/>
+
+    <Button
+        android:id="@+id/Scores_App_Button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/Scores_App"
+        android:textSize="18sp"
+        android:background="@color/orangeButton"
+        android:onClick="buttonPress"/>
+
+    <Button
+        android:id="@+id/Library_App_Button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/Library_App"
+        android:textSize="18sp"
+        android:background="@color/orangeButton"
+        android:onClick="buttonPress"/>
+
+    <Button
+        android:id="@+id/Build_It_Bigger_Button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/Build_It_Bigger"
+        android:textSize="18sp"
+        android:background="@color/orangeButton"
+        android:onClick="buttonPress"/>
+
+    <Button
+        android:id="@+id/XYZ_Reader_Button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/XYZ_Reader"
+        android:textSize="18sp"
+        android:background="@color/orangeButton"
+        android:onClick="buttonPress"/>
+
+    <Button
+        android:id="@+id/Capstone_Button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/Capstone"
+        android:textSize="18sp"
+        android:background="@color/redButton"
+        android:textColor="@android:color/white"
+        android:onClick="buttonPress"/>
+
+</LinearLayout>
