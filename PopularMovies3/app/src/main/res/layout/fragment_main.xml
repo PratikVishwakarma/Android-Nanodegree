@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.pratik.popularmovies3.MainActivityFragment"
+    tools:showIn="@layout/activity_main">
+
+    <GridView
+        android:id="@+id/gridView_movies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadeScrollbars="true"
+        android:numColumns="2"
+        />
+
+</RelativeLayout>

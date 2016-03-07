@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PopularMovies3</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_popularity">Sort By Popularity</string>
+    <string name="menu_ratings">Sort By Ratings</string>
+    <string name="title_activity_movie_details">Movie_details</string>
+    <string name="title_activity_details_page2">Details_page2</string>
+    <string name="title_activity_movie__details">Movie_Details</string>
+</resources>
