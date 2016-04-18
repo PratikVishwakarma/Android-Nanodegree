@@ -15,7 +15,7 @@
 
         <provider
             android:name=".Data.MovieProvider"
-            android:authorities="com.example.nishtha.popular_movie"
+            android:authorities="com.example.pratik.popular_movie"
             android:enabled="true" />
 
         <activity
