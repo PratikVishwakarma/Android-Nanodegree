@@ -25,7 +25,7 @@ import com.example.pratik.popularmovie_2.Data.MovieContract.MovieEntry;
  * Created by pratik on 4/4/16.
  */
 public class FetchMovies extends AsyncTask<String,Void,Void> {
-    String LOG_TAG="hello";
+    String LOG_TAG="FetchMovies";
     HttpURLConnection urlConnection=null;
     BufferedReader reader;
     String moviesJsonStr;
@@ -42,7 +42,7 @@ public class FetchMovies extends AsyncTask<String,Void,Void> {
             Uri uri=Uri.parse(BASE_URL).buildUpon().appendQueryParameter(SORT_BY,params[0]+".desc").
                     appendQueryParameter(API_KEY,"YOUR_API_KEY").build();
             URL url = new URL(uri.toString());
-            Log.v("hello", "THE URL IS: " + url);
+            Log.v(LOG_TAG, "THE URL IS: " + url);
 
         // Create the request to OpenWeatherMap, and open the connection
             urlConnection = (HttpURLConnection) url.openConnection();
@@ -120,7 +120,7 @@ public class FetchMovies extends AsyncTask<String,Void,Void> {
             ContentValues[] values=new ContentValues[cVector.size()];
             cVector.toArray(values);
             inserted=mcontex.getContentResolver().bulkInsert(MovieEntry.CONTENT_URI,values);
-            Log.d("hello ",inserted+" rows has been inserted");
+            Log.d( LOG_TAG,inserted+" rows has been inserted");
         }catch (Exception e){
             Log.e(LOG_TAG,e.getMessage());
         }
