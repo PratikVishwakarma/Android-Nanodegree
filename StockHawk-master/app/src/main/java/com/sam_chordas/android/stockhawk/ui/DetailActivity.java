@@ -90,14 +90,18 @@ public class DetailActivity extends AppCompatActivity implements Callback<QuoteI
         LineChartFragment fragment = LineChartFragment.newInstance(quoteList);
         getSupportFragmentManager().beginTransaction()
                 .replace(R.id.container_fg, fragment)
-                .commit();
+                .commitAllowingStateLoss();
     }
 
     @Override
     public void onFailure(Call<QuoteInfo> call, Throwable t) {
-        Toast.makeText(DetailActivity.this, "data fetch failed", Toast.LENGTH_SHORT).show();
+        Toast.makeText(DetailActivity.this, getString(R.string.toast_data_fetch_failed), Toast.LENGTH_SHORT).show();
     }
-
+    @Override
+    public void onBackPressed() {
+        Intent i= new Intent(getApplicationContext(), MyStocksActivity.class);
+        startActivity(i);
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
