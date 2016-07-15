@@ -14,6 +14,8 @@
   <string name="valid_toast">" added!"</string>
   <string name="invalid_toast">" is not a valid stock!"</string>
   <string name="already_exist_toast">"Stock is already saved!"</string>
+  
+  <string name="toast_data_fetch_failed">data fetch failed</string>
 
 
   <string name="stock_info_not_available">The update is not available.</string>
