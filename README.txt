@@ -5,7 +5,7 @@ MyAppPortfolio          :- First app to show my portfolio.
 
 PopularMovie_2          :- Second app and assignment also. This is a movies details based app, it shows the movies details like it'srating, description, release date, duration etc.   
 
-PopularMovies_master    :- Third app and assignment also. This is a update version of PopularMovie_2 porject, it include local Database and Content Provider, this app have option to select any movie as your favourite one and you can also watch                            the trailer of any movie.
+PopularMovies_master    :- Third app and assignment also. This is a update version of PopularMovie_2 porject, it include local Database and Content Provider, this app have option to select any movie as your favourite one and you can also watch the trailer of any movie.
 
 StockHawk-master        :- Forth app and assignment also. This is a stocks details based app, it shows the current stocks details of different companies and show their growth graph by months, week and day.
 
