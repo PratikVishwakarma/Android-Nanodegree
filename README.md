@@ -1,6 +1,8 @@
 ## Android-Nanodegree
 This Reposetry contains all the Projects which I build in Android Nanodegree
 
+|       Name        |     Description     |
+| ----------------- | ------------------- |
 MyAppPortfolio          :- First app to show my portfolio.
 
 PopularMovie_2          :- Second app and assignment also. This is a movies details based app, it shows the movies details like it'srating, description, release date, duration etc.   
