@@ -1,5 +1,5 @@
 ## Android-Nanodegree
-This Reposetry contains all the Projects which I build in Android Nanodegree
+`This Reposetry contains all the Projects which I build in Android Nanodegree`
 
 |       Name        |     Description     |
 | ----------------- | ------------------- |
