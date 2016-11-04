@@ -15,3 +15,5 @@ Most of us can relate to kicking back on the couch and enjoying a movie with fri
 - Allow users to mark a movie as a favorite in the details view by tapping a button(star). This is for a local movies collection that you will maintain and does not require an API request*.
 - Modify the existing sorting criteria for the main view to include an additional pivot to show their favorites collection.
 - Lastly, I optimize the app experience for tablet.
+
+**NOTE** 'This project is updated and the orignal code is in `Popularmovies-master.zip`'
