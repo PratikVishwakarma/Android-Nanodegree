@@ -9,7 +9,7 @@
         android:layout_height="90dp"
         android:background="@color/theme_primary"
         android:theme="@style/Theme.Bacon"
-        android:elevation="8dp">
+        android:elevation="4dp">
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
