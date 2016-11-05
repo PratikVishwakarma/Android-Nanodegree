@@ -24,4 +24,5 @@
     <color name="ltgray">#2b2a2a</color>
     <color name="gray">#455A64</color>
     <color name="link_text">#303F9F</color>
+    <color name="artical_subtitle_text">#78000000</color>
 </resources>
