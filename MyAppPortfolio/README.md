@@ -8,7 +8,7 @@ This app is a showcase of my app portfolio. Each button represents an app that I
 - Build it Bigger
 - Make Your App Material
 - Go Ubiquitous
-- Capstone 
+- Capstone (inTouch)
 
 #### Current Status
 
